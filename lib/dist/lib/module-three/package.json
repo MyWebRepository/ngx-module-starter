@@ -1,0 +1,14 @@
+{
+  "description": "NOT actual package, but for ng-packagr and npm scripts",
+  "main": "../../bundles/my-package-lib-module-three.umd.js",
+  "module": "../../fesm5/my-package-lib-module-three.js",
+  "es2015": "../../fesm2015/my-package-lib-module-three.js",
+  "esm5": "../../esm5/lib/module-three/my-package-lib-module-three.js",
+  "esm2015": "../../esm2015/lib/module-three/my-package-lib-module-three.js",
+  "fesm5": "../../fesm5/my-package-lib-module-three.js",
+  "fesm2015": "../../fesm2015/my-package-lib-module-three.js",
+  "typings": "my-package-lib-module-three.d.ts",
+  "metadata": "my-package-lib-module-three.metadata.json",
+  "sideEffects": false,
+  "name": "my-package/lib/module-three"
+}

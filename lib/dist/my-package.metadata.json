@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":4,"exports":[{"export":[{"name":"OneModule","as":"OneModule"}],"from":"./module-one"},{"export":[{"name":"TwoModule","as":"TwoModule"}],"from":"./module-two"},{"export":[{"name":"ThreeModule","as":"ThreeModule"}],"from":"./module-three"}],"metadata":{},"origins":{},"importAs":"my-package"}

@@ -1,0 +1,101 @@
+{
+  "name": "my-package",
+  "description": "Angular5+ library development starter using jest, codecept, ngx-packagr ",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "bundles/my-package.umd.js",
+  "typings": "my-package.d.ts",
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenhwkim/my-package"
+  },
+  "author": "Allen Kim<allenhwkim@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/allenhwkim/my-package/issues"
+  },
+  "homepage": "https://github.com/allenhwkim/my-package#readme",
+  "keywords": [
+    "angular",
+    "typescript",
+    "jest",
+    "coecept",
+    "package",
+    "module"
+  ],
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@angular/animations": "^5.2.9",
+    "@angular/cli": "~1.7.3",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/compiler-cli": "^5.2.9",
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/language-service": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "@ngx-translate/core": "^9.1.1",
+    "@types/node": "~6.0.60",
+    "angular-tslint-rules": "^1.2.1",
+    "codeceptjs": "^1.1.7",
+    "codelyzer": "^4.2.1",
+    "core-js": "^2.4.1",
+    "jest": "^22.4.3",
+    "jest-html-reporter": "^2.4.1",
+    "jest-preset-angular": "^5.2.1",
+    "ng-packagr": "^3.0.3",
+    "ngx-bootstrap": "^3.0.1",
+    "pre-commit": "^1.2.2",
+    "puppeteer": "^1.2.0",
+    "rxjs": "^5.5.6",
+    "start-server-and-test": "^1.4.1",
+    "ts-node": "~4.1.0",
+    "tslint": "^5.10.0",
+    "typescript": "~2.5.3",
+    "zone.js": "^0.8.19"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/jest-setup.ts",
+    "globals": {
+      "__TRANSFORM_HTML__": true,
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/+(*.)+(spec).+(ts|js)?(x)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "html"
+    ],
+    "moduleNameMapper": null,
+    "transformIgnorePatterns": [
+      "node_modules/(?!@ngrx)"
+    ],
+    "testResultsProcessor": "./node_modules/jest-html-reporter",
+    "collectCoverageFrom": [
+      "app/src/**/*(*.service|*.component|*.pipe|*.directive).{ts,html}",
+      "lib/**/*(*.service|*.component|*.pipe|*.directive).{ts,html}"
+    ]
+  },
+  "module": "fesm5/my-package.js",
+  "es2015": "fesm2015/my-package.js",
+  "esm5": "esm5/my-package.js",
+  "esm2015": "esm2015/my-package.js",
+  "fesm5": "fesm5/my-package.js",
+  "fesm2015": "fesm2015/my-package.js",
+  "metadata": "my-package.metadata.json",
+  "sideEffects": false
+}

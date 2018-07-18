@@ -1,0 +1,14 @@
+{
+  "description": "NOT actual package, but for ng-packagr and npm scripts",
+  "main": "../../bundles/my-package-lib-module-one.umd.js",
+  "module": "../../fesm5/my-package-lib-module-one.js",
+  "es2015": "../../fesm2015/my-package-lib-module-one.js",
+  "esm5": "../../esm5/lib/module-one/my-package-lib-module-one.js",
+  "esm2015": "../../esm2015/lib/module-one/my-package-lib-module-one.js",
+  "fesm5": "../../fesm5/my-package-lib-module-one.js",
+  "fesm2015": "../../fesm2015/my-package-lib-module-one.js",
+  "typings": "my-package-lib-module-one.d.ts",
+  "metadata": "my-package-lib-module-one.metadata.json",
+  "sideEffects": false,
+  "name": "my-package/lib/module-one"
+}
